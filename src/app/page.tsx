@@ -1,7 +1,8 @@
 import React from 'react'
+import { env } from '~/env'
 
 export default function HomePage() {
   return (
-    <div>HomePage</div>
+    <div>{env.BETTER_AUTH_SECRET}</div>
   )
 }
