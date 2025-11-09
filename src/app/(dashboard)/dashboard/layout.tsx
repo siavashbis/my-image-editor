@@ -16,6 +16,7 @@ import {
   BreadcrumbList,
 } from "~/components/ui/breadcrumb";
 import BreadcrumbPageClient from "~/components/sidebar/breadcrumb-page-client";
+
 export const metadata: Metadata = {
   title: "AI Image Editor",
   description: "AI Image Editor",
